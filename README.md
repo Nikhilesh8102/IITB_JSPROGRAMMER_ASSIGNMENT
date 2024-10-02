@@ -1,0 +1,1 @@
+This repo contains the HTML, CSS, Java Script code used to complete the challenge given. It also contains the documentation file in which I covered about my approach while designing the solution in detail, also the features are mentioned.
