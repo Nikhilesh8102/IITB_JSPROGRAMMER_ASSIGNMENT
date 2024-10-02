@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Details</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
+    <script src="./script.js" type="module" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="top-row">
+            <h1>Chemical supplies</h1>
+            <div class="toolbar">
+                <i class="fa-solid fa-circle-plus add-btn" style="color: #0032c8;" title="Add row"></i>
+                <i class="fa-solid fa-arrow-down down-btn" title="Move down"></i>
+                <i class="fa-solid fa-arrow-up up-btn" title="Move up"></i>
+                <i class="fa-solid fa-trash delete-btn" style="color: #c83200;" title="Delete row"></i>
+                <i class="fa-solid fa-rotate-left refresh-btn" style="color: #0032c8;" title="Refresh data"></i>
+                <i class="fa-solid fa-floppy-disk save-btn" style="color: #0032c8;" title="Save data"></i>
+            </div>
+        </div>
+        <div class="bottom-row">
+
+            <table id="table">
+                <thead>
+                    <tr class="headers">
+                        <th><i class="fa-solid fa-check" style="color: #0032c8;"></i></th>
+                        <th scope="col">
+                            <div class="eachth">
+                                id<i name="id" class="fa-solid fa-sort fa-fw" title="sort by column">
+                                </i>
+                            </div>
+
+                        </th>
+                        <th scope="col">
+                            <div class="eachth"> Chemical name<i name="chemical_name" class="fa-solid fa-sort fa-fw"
+                                    title="sort by column"></i></div>
+                        </th>
+                        <th scope="col">
+                            <div class="eachth">Vendor<i name="vendor" class="fa-solid fa-sort fa-fw"
+                                    title="sort by column"></i></div>
+                        </th>
+                        <th scope="col">
+                            <div class="eachth">Density <span class="units">(g/m<sup>3</sup>)</span><i name="density"
+                                    class="fa-solid fa-sort fa-fw" title="sort by column"></i></div>
+                        </th>
+                        <th scope="col">
+                            <div class="eachth">Viscosity <span class="units">(m<sup>2</sup>/s)</span><i
+                                    name="viscosity" class="fa-solid fa-sort fa-fw" title="sort by column"></i></div>
+                        </th>
+                        <th scope="col">
+                            <div class="eachth">Packaging<i name="packaging" class="fa-solid fa-sort fa-fw"
+                                    title="sort by column"></i></div>
+                        </th>
+                        <th scope="col">
+                            <div class="eachth">Pack size<i name="pack_size" class="fa-solid fa-sort fa-fw"
+                                    title="sort by column"></i></div>
+                        </th>
+                        <th scope="col">
+                            <div class="eachth">Unit<i name="unit" class="fa-solid fa-sort fa-fw"
+                                    title="sort by column"></i></div>
+                        </th>
+                        <th scope="col">
+                            <div class="eachth">Quantity<i name="quantity" class="fa-solid fa-sort fa-fw"
+                                    title="sort by column"></i></div>
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>

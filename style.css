@@ -1,0 +1,237 @@
+/*
+I tried my best to make the styling as accurate as possible, adhering to the image in the challenge description
+*/
+
+body {
+    background-color: #FAFAFA;
+    font-family: monospace;
+    color: rgb(70, 70, 70);
+
+}
+
+/* main section */
+main {
+    max-width: 90%;
+    margin-block: 4rem;
+    margin-inline: auto;
+    position: relative;
+}
+
+/* the row containg the heading and tooolbar */
+.top-row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    background-color: #FAFAFA;
+}
+
+.top-row h1 {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.toolbar i {
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.toolbar {
+    display: flex;
+    gap: 22px;
+}
+
+table {
+    width: 100%;
+    background-color: #FAFAF5;
+    font-size: 1.2rem;
+    border: 2px solid #e2e2da
+}
+
+/* for the new inputs when add row is clicked */
+.new-input {
+    width: 90%;
+
+}
+
+.headers {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+thead th:nth-child(3),
+tbody td:nth-child(3) {
+    border-right: 2px solid #E2E2DA;
+}
+
+tr {
+    min-height: 3vh;
+}
+
+.eachth {
+    display: flex;
+}
+
+/* editable input fields */
+.editable {
+    border: 1px solid #e2e2da;
+}
+
+thead {
+    border-bottom: 2px solid #e2e2da;
+
+}
+
+.headers th {
+    vertical-align: top;
+}
+
+.highlight-row {
+    background-color: #E6E8FF;
+    border: 1.5px solid blue;
+}
+
+
+tr th,
+tr td {
+    padding: 10px;
+    font-weight: 500;
+}
+
+.add-row {
+    outline: inherit;
+    border: inherit;
+}
+
+.up-btn,
+.down-btn {
+    color: #0032c8
+}
+
+.no-operation {
+    color: gray;
+}
+
+td:not(.add-row) input {
+    width: 90%;
+    height: 90%;
+    font-size: 1.4rem;
+    outline: none;
+    border: none;
+}
+
+
+th {
+    font-weight: 500;
+}
+
+.units sup {
+    font-size: 10px;
+
+}
+
+.units {
+    color: #a0a09c;
+}
+
+/* media queries for responsiveness */
+
+/* for screens upto 1400px */
+@media screen and (max-width: 1400px) {
+    .eachth {
+        flex-direction: column;
+
+    }
+}
+
+/* For screens up to 1200px */
+@media screen and (max-width: 1200px) {
+    .top-row h1 {
+        font-size: 1.6rem;
+    }
+
+    .toolbar i {
+        font-size: 1.4rem;
+    }
+
+    table {
+        font-size: 1.1rem;
+    }
+}
+
+/* For screens up to 992px */
+@media screen and (max-width: 992px) {
+    .top-row {
+        align-items: flex-start;
+    }
+
+    .top-row h1 {
+        font-size: 1.4rem;
+
+    }
+
+    .toolbar {
+        gap: 12px;
+    }
+
+    td:not(.add-row) input {
+        width: 100%;
+    }
+
+    table {
+        font-size: 1rem;
+    }
+}
+
+/* For screens up to 768px */
+@media screen and (max-width: 768px) {
+    main {
+        max-width: 95%;
+
+    }
+
+    table {
+        font-size: 0.9rem;
+
+    }
+
+    .top-row h1 {
+        font-size: 1.2rem;
+
+    }
+
+    .toolbar i {
+        font-size: 1.2rem;
+
+    }
+
+    .toolbar {
+        gap: 12px;
+
+    }
+
+}
+
+/* For screens up to 576px */
+@media screen and (max-width: 576px) {
+
+    .toolbar {
+        gap: 8px;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+
+    .top-row h1 {
+        font-size: 1rem;
+    }
+
+    td:not(.add-row) input {
+        font-size: 1rem;
+    }
+}
