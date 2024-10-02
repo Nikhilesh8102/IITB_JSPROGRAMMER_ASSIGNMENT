@@ -1,0 +1,66 @@
+## DESIGN APPROACH
+
+The challenge was to create a table which has information about different chemicals. It had many functionalities which need to be implemented. Below is my thought process while approaching on how to solve this problem.
+
+1. Preparing a JSON data of 15 rows which has information about different chemicals was easy, and then creating the table and filling the initial data was also easy, which required a basic sense of HTML tables and some basic Java script functions and DOM methods.
+
+2.Now coming to the next step of achieving each functionality starting from adding a row, row manipulations till saving the data and storing it in local storage is where I struggled a bit but at the end achieved them with a bit of revision and also research.
+
+3. While designing every functionality, my main aim was to think of such a code which is robust, clean, clear, non-redundant and also followed the modular approach.
+
+4. At every step of developing the solution I focused on writing clear, clear and maintainable code with proper documentation(comments).
+
+5.As some functionalities like SORTING, REFRESHING AND SAVING the data included manipulating the data on a large scale I initially found it somewhat tough to deal with the array data manipulation, but with the correct efforts I was able to tackle them.
+
+
+
+
+
+## CHOICES USED IN CODING
+
+The challenge included functionalities like adding a row, moving a row up and down, delete row, refresh, save the data, sorting based on columns etc., it was important for me to decide the best choice of my thoughts while approaching on how to code.
+
+1.Writing Clean, Clear and Concise code
+
+At some places it felt the like this task can be done in lesser number o code lines, but writing it in a clean, clear manner is more important as I believe coding is not just about achieving the solution to a problem but also on how did it achieve.
+
+Some lines of code or logic might be self-explanatory, while others require some level of documentation which is what I did in my solution as well in simple words, to make it easier for others to understand it.
+
+
+2. Proper Organization of code
+
+I give high priority to having my code well organized with the right parts of code at right places.
+
+# FUNCTIONALITIES AND MY APPROACH
+
+1.Add Row --> Appending a new row with input fields for all the columns which accept the users input and then saving them to the data array
+
+2.Move Row Up And Down --> This was done with the help of JS DOM methods, which I found very exciting and smooth.
+
+3.Delete Row --> This was done with the help of Unique IDs attached to each row and filtering out the row from the database.
+
+4.Refresh Data --> This at the initial was tricky but later I found a easy solution which made reverting back to the last checkpoint easy. I just rolled back to the previous committed data.
+
+5.Save Data --> This again dealt with data manipulation and I was able to achieve this with help of array knowledge.
+
+6.Sorting of Rows --> I can easily say that this was one of the most difficult part of the challenge, I did this by comparing the values of the selected columns and then some array manipulations.
+
+7.Editing the Fields --> I did this by finding which exact table cell was clicked and then making the necessary actions which include generating a input fields and then saving them to the database on pressing ENTER.
+
+
+
+Some other minor functionalities include Row Highlighting, clearing the previously selected rows.
+
+I can say that in all the above functionalities JS DOM methods, array manipulation played the major part.
+
+## NOTABLE FEATURES
+
+1.Responsiveness
+2.Dynamic Data Handling
+3.Accessible User Interface(UI)
+4.User Friendly Frontend
+
+
+AT LAST I WANT TO SAY THAT THIS CHALLENGE HELPED ME IN BRUSHING UP MY SKILLS RELATED TO HTML, CSS, JAVASCIRIPT. THANKS A LOT FOR THE OPPORTUNITY.
+
+
