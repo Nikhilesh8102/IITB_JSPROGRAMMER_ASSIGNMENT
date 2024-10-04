@@ -22,5 +22,7 @@ Refresh functionality.
 #TECHNOLOGIES USED
 
 HTML: Structuring the layout and table.
+
 CSS: Styling the table and ensuring responsiveness.
+
 JavaScript: Handling interactive features and data management.
