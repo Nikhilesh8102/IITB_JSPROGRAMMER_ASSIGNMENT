@@ -7,7 +7,9 @@ This repository contains the HTML, CSS, and JavaScript code used to complete the
 The repository includes a detailed documentation file where I explain my approach to designing and implementing the solution. It covers the following:
 
 Design approach: My thought process and how I structured the solution.
+
 Features: A list of the key functionalities implemented in the project.
+
 Challenges & Solutions: Any roadblocks faced and how they were resolved.
 
 #FEATURES
